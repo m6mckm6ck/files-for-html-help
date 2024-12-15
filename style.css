@@ -1,0 +1,45 @@
+/* CSS file: style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+
+/* Header styles */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Paragraph styles */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+video {
+    border: 2px solid #ccc; /* Optional: border for clarity */
+    width: 400px;
+    height: 400px;
+}
+
+iframe {
+height: 400px;
+width: 400px;
+}
+
+/* Grid Container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    column-gap: 1px; /* Minimal gap between columns */
+    align-items: center; /* Align items vertically */
+    padding: 10px;
+    background-color: #f9f9f9;
+}
